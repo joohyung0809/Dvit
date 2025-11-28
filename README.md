@@ -179,4 +179,4 @@ If you have any question, please feel free to contact us. E-mail: [shuting_he@zj
 
 CUDA_VISIBLE_DEVICES=3 python train.py   --config_file configs/transformer_base.yml   MODEL.STRIDE_SIZE "[16,16]"   MODEL.SIE_CAMERA True   MODEL.SIE_VIEW False   MODEL.JPM False   MODEL.TRANSFORMER_TYPE vit_base_patch16_224_TransReID   OUTPUT_DIR ./vit_base   DATASETS.NAMES market1501
 
-# You have to change MODEL.TRANSFORMER_TYPE such as dvit1, dvit2 .. etc(check the build transformer function)
+You have to change MODEL.TRANSFORMER_TYPE such as dvit1, dvit2 .. etc(check the build transformer function)
